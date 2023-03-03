@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 288px;
+}
+
+.back {
+    margin-top: 110px;
+    margin-bottom: 15px;
+}
+
+.back a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.video-pregunta {
+    width: 864px;
+    height: 708px;
+    left: 288px;
+    top: 141px;
+    background: #C4C4C4;
+    border-radius: 8px;
+}
+
+.video {
+    height: 612px;
+    border-radius: 8px 8px 0px 0px;
+    background-color: black;
+}
+
+.video video{
+    border-radius: 8px 8px 0px 0px;
+    position: absolute;
+    width: 864px;
+    height: 612px;
+}
+
+.aks-video {
+    padding-left: 29px;
+    padding-top: 23px;
+    padding-right: 613px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.options {
+    width: 864px;
+}
+
+.cubos {
+    width: 20px;
+    height: 20px;
+    background: #FF0000;
+    opacity: 0.2;
+}
+
+.posicion-cubo1 {
+    margin-left: 825px;
+}
+
+.posicion-cubo2 {
+    margin-left: 845px;
+}
+.down-options-video{
+    display: flex;
+    justify-content: space-between;
+}
+
+.down-options-video a {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    
+}
+.play {
+    margin-left: 12px;
+    margin-top: 543px;
+    text-align: center;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.55);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    position: absolute;
+    padding-top: 13px;
+}
+
+.play i {
+    color: white;
+}
+
+/* Para ocultar el boton  */
+ /* .btn-next{
+    opacity: 0;
+} */
